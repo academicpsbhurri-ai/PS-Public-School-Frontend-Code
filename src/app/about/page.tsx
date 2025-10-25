@@ -11,7 +11,9 @@ export default function Home() {
   return (
     <>
     <div className="bg-[#F9FAFB] text-[#111827]">
-     <AboutUs></AboutUs>
+     <AboutUs>
+      
+     </AboutUs>
      
       
     </div>
