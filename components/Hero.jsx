@@ -46,7 +46,7 @@ export default function Hero() {
           className="md:w-1/2 mt-8 md:mt-0"
         >
           <Image
-            src="/images/award.jpg"
+            src="/images/homehero1.jpg"
             alt="School Building"
             width={500}
             height={450}
