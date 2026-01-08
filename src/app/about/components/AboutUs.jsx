@@ -109,7 +109,7 @@ export default function AboutUs() {
         </h2>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <img
-            src="/schoolimages/principal.jpg"
+            src="/schoolimages/principal1.png"
             alt="Principal"
             className="rounded-full w-48 h-48 object-cover border-4 border-blue-500 shadow-md"
           />
@@ -148,7 +148,7 @@ export default function AboutUs() {
             {/* Director */}
             <div className="bg-white shadow-md rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
               <img
-                src="/schoolimages/director.jpg"
+                src="/schoolimages/sanjiv.png"
                 alt="Director"
                 className="w-32 h-32 mx-auto rounded-full object-cover border-4 border-blue-500"
               />
@@ -165,7 +165,7 @@ export default function AboutUs() {
             {/* Vice Principal */}
             <div className="bg-white shadow-md rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
               <img
-                src="/schoolimages/vprincipal.jpg"
+                src="/schoolimages/ANITA.png"
                 alt="Vice Principal"
                 className="w-32 h-32 mx-auto rounded-full object-cover border-4 border-blue-500"
               />
