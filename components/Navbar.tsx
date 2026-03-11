@@ -68,7 +68,7 @@ export default function Navbar() {
             { name: "Admin Login", href: "/admin-login" },
 {
   name: "Portal Login",
-  href: "https://exam-alpha-gilt.vercel.app/",
+  href: "https://erp.pspublicschool.com/",
   external: true,
 },
           ],
@@ -188,13 +188,25 @@ export default function Navbar() {
                   <ul className="bg-white text-[#111827] rounded-lg shadow-lg py-2 mt-2">
                     {menu.links.map((link) => (
                       <li key={link.name}>
-                        <Link
-                          href={link.href}
-                          className="block px-5 py-2 hover:bg-[#FBBF24] transition"
-                          onClick={() => setMobileOpen(false)}
-                        >
-                          {link.name}
-                        </Link>
+                        {link.external ? (
+                          <a
+                            href={link.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block px-5 py-2 hover:bg-[#FBBF24] transition"
+                            onClick={() => setMobileOpen(false)}
+                          >
+                            {link.name}
+                          </a>
+                        ) : (
+                          <Link
+                            href={link.href}
+                            className="block px-5 py-2 hover:bg-[#FBBF24] transition"
+                            onClick={() => setMobileOpen(false)}
+                          >
+                            {link.name}
+                          </Link>
+                        )}
                       </li>
                     ))}
                   </ul>
